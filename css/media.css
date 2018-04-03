@@ -7,8 +7,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.menu li{
+		padding: 0 15px;
 }
+	.menu li:first-child{
+		padding-left: 0;
+	}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -51,6 +55,11 @@
 		height: 40px;
 		border-radius: 50%;
 		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn i{
+		position: relative;
+		top: -19px;
 	}
 	#top-menu{
 		background-color: #2a2e48;
@@ -66,6 +75,9 @@
 	.menu li a:hover{
 		background-color: #fff;
 		color: 000;
+	}
+	.menu li:first-child{
+		padding-left: 15px;
 	}
 	.title-block{
 		margin-top: 130px;
@@ -91,6 +103,11 @@
 		height: 40px;
 		border-radius: 50%;
 		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn i{
+		position: relative;
+		top: -19px;
 	}
 	#top-menu{
 		background-color: #2a2e48;
@@ -109,6 +126,12 @@
 	}
 	.title-block{
 		margin-top: 130px;
+	}
+	.title-block h1{
+		font-size: 30px;
+	}
+	.title-block p{
+		font-size: 14px;
 	}
 }
 
@@ -131,6 +154,11 @@
 		height: 40px;
 		border-radius: 50%;
 		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn i{
+		position: relative;
+		top: -19px;
 	}
 	#top-menu{
 		background-color: #2a2e48;
@@ -167,7 +195,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	
 }
 
 /* Medium Devices, Desktops */

@@ -1,8 +1,7 @@
 body {
-	font-family: "RobotoRegular", sans-serif;
+	font-family: "RalewayRegular", sans-serif;
 	font-size: 16px;
 	min-width: 320px;
-	position: relative;
 }
 
 /*----------BUTTONS----------*/
@@ -11,9 +10,14 @@ body {
 	background-color: #e84545;
 	border: none;
 	text-transform: uppercase;
+	border-radius: 3px;
 }
 .btn-md{
 	padding: 10px 30px;
+	margin-top: 20px;
+}
+.btn-md:hover{
+	background-color: #ff3333;
 }
 
 /*----------HEADER----------*/
@@ -32,9 +36,6 @@ nav{
 	width: 100%;
 	z-index: 9999;
 }
-.navbar-header{
-	float: none;
-}
 .menu{
 	list-style: none;
 	margin: 0;
@@ -48,6 +49,7 @@ nav{
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'RalewayBold', sans-serif;
+	font-size: 13px;
 }
 .menu li a:hover,
 .menu li a:focus{
@@ -74,4 +76,30 @@ nav{
 .title-block p{
 	font-size: 18px;
 	margin-bottom: 50px;
+}
+h1{
+	text-transform: uppercase;
+}
+
+/*----------PARAMETERS SECTION----------*/
+
+.params_s{
+	padding: 95px 0;
+}
+.param_block{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.param_block i{
+	font-size: 70px;
+	color: #e84545;
+}
+.param_block h3{
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif;
+	font-size: 18px;
+}
+.param_block p{
+	font-size: 14px;
+	color: #6c7279;
 }
