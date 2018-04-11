@@ -15,6 +15,7 @@ body {
 	border: none;
 	text-transform: uppercase;
 	border-radius: 3px;
+	color: #fff;
 }
 .btn-md{
 	padding: 10px 30px;
@@ -23,6 +24,39 @@ body {
 .btn-md:hover{
 	background-color: #ff3333;
 }
+.btn-lg{
+	padding: 15px 50px;
+}
+.btn-lg:hover{
+	background-color: #ff3333;
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	background-color: transparent;
+	height: 30px;
+	width: 30px;
+	color: #c6cacc;
+}
+.soc_btn_white{
+	border: 1px solid #fff;
+	background-color: transparent;
+	height: 30px;
+	width: 30px;
+	color: #fff;
+}
+.call_btn{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none; 
+	color: #fff;
+	background-color: #e84545;
+	z-index: 999;
+}
+
 
 /*----------HEADER----------*/
 header{
@@ -38,7 +72,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 9999;
+	z-index: 999;
 }
 .menu{
 	list-style: none;
@@ -134,6 +168,80 @@ h1{
 }
 .work-block:hover .image-wrap{
 	opacity: 1;
+}
+
+/*----------TEAM SECTION----------*/
+
+.team_s{
+	padding: 95px 0;
+}
+.team_item h4{
+	font-family: 'RalewayBold', sans-serif;
+}
+.team_item span{
+	text-transform: uppercase;
+	color: #e84545;
+	font-size: 14px;
+}
+.team_item p{
+	color: #6c7279;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+/*----------DOWNLOAD SECTION----------*/
+
+.download{
+	padding: 90px 0;
+}
+.download_block{
+	text-align: center;
+}
+.download_block h5{
+	font-size: 24px;
+}
+.download_block p{
+	font-family: 'RalewayBold', sans-serif;
+	text-transform: uppercase;
+}
+
+/*----------FOOTER----------*/
+
+.main_footer{
+	padding: 70px 0;
+	background-color: #3a3e64;
+}
+.footer_item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer_item h5{
+	font-family: 'RalewayBold', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer_item p{
+	font-size: 14px;
+	color: #9d9fb2;
+}
+.copy_txt{
+	color: #9d9fb2;
+}
+.copyright_block{
+	background: #313454;
+	text-align: center;
+	padding: 30px 0;
+}
+
+/*----------INPUT----------*/
+
+#dlForm{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#dlForm input{
+	margin-bottom: 15px;
 }
 
 

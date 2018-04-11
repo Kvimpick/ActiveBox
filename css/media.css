@@ -9,10 +9,20 @@
 @media only screen and (max-width : 992px) {
 	.menu li{
 		padding: 0 15px;
-}
+	}
 	.menu li:first-child{
 		padding-left: 0;
 	}
+	.team_item{
+		margin-bottom: 15px;
+	}
+	.team_item{
+		text-align: center;
+	}
+	.team_item img{
+		margin: 0 auto;
+	}
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -82,6 +92,15 @@
 	.title-block{
 		margin-top: 130px;
 	}
+	.download{
+		padding: 20px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+	#dlForm{
+		width: 100%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -133,6 +152,19 @@
 	.title-block p{
 		font-size: 14px;
 	}
+	.download{
+		padding: 20px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+	#dlForm{
+		width: 100%;
+	}
+	.call_btn{
+		top: 8px;
+		right: 60px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -177,6 +209,19 @@
 	}
 	.title-block{
 		margin-top: 130px;
+	}
+	.download{
+		padding: 20px 0;
+	}
+	.team_s{
+		padding: 60px 0 40px 0;
+	}
+	#dlForm{
+		width: 100%;
+	}
+	.call_btn{
+		top: 8px;
+		right: 60px;
 	}
 }
 
